@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+  text-transform: uppercase;
+}
+
+nav{
+    background-color: blue;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+
+  .cardebook{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Ajuste o alinhamento do texto conforme necessário */
+    .cardebook{
+        justify-content: center;
+        display: grid;
+        padding-bottom: 10px;
+    }
+    .titulo{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+  
+    /* Garanta que os cards apareçam um abaixo do outro */
+    .cardebook {
+      width: 100%; /* Garante que o card ocupe toda a largura do dispositivo */
+      margin-bottom: 20px; /* Espaçamento entre os cards */
+    }
+
+    .header, footer{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 16px;
+        background-color: #0a0a23;
+        color: #fff;
+        border-bottom: 4px solid red;
+      }
+  }
+
+.textoinicio{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+}
+.header, footer{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid red;
+  }
+
+  .card-text{
+    text-align: center;
+  }
