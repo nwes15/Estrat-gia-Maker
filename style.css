@@ -1,4 +1,4 @@
-h1{
+h1, h2{
     text-align: center;
   text-transform: uppercase;
 }
@@ -76,3 +76,34 @@ nav{
   .card-text{
     text-align: center;
   }
+
+  .curtinho{
+    text-align: justify;
+    padding: 30px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  /* Estilos gerais */
+section {
+  margin-bottom: 20px;
+}
+
+.curtinho {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .curtinho {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .curtinho {
+      font-size: 12px;
+  }
+}
